@@ -1,0 +1,24 @@
+NAME: William Chen
+EMAIL: billy.lj.chen@gmail.com
+ID: 405131881
+
+Files Included:
+
+Makefile:
+Takes in the following targets:
+default: creates executables lab1b-server and lab1b-client with -Wextra and -Wall
+client: creates executable lab1b-client
+server: creates executable lab1b-server
+dists: creates tarball
+clean: gets rid of files that are created by Makefile
+
+lab1b-client.c
+C Source code for client program that opens connection to server with --port
+Can also take in --compress and --log to compress data and log all sent and received
+
+lab1b-server.c
+C Source code for server program that connect to client and sends commands to shell
+Can also take in --compress and --shell and --port
+
+README:
+This file
