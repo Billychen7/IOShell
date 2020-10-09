@@ -19,5 +19,7 @@ lab1b-server.c
 C Source code for server program that connect to client and sends commands to shell
 Can also take in --compress and --shell and --port
 
-README:
-This file
+SKILLS SHOWN:
+Passing input and output over a TCP socket
+Compressing communication between the client and server
+
